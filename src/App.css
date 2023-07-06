@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.movie-card img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+}
+.movie-list {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1;
+}
+.movie-card {
+  cursor: pointer;
+  padding: 10px;
+  background-color: rgba(250, 247, 247, 0.425);
+  width: 250px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.filter {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.form {
+  font-size: 18px;
+  margin: 30px 0px;
+}
+.movie-details button {
+  margin: 20px 0px;
+  width: 100px;
+  border-radius: 10px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 14px;
+  border-style: none;
+}
+.movie-details p {
+  font-style: italic;
+}
